@@ -4,7 +4,7 @@ import '../styles/NavTabs.css';
 
 const styles = {
   NavTabsStyle: {
-    background: 'red',
+    background: 'green',
     justifyContent: 'flex-end',
   },
 };
@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
      <ul className="nav nav-tabs "  style={styles.NavTabsStyle}> 
      
     
-      <h3>Wilfredo Recinos Recinos</h3>
+      <h3> Wilfredo Recinos Recinos </h3>
 
       <li className="nav-item">
         <a

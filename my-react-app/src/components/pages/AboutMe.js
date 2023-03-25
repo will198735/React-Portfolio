@@ -1,13 +1,30 @@
 import React from 'react';
 
+
+const person = {
+  mane: 'About Me',
+  theme: {
+    backgroundColor: 'lightblue',
+    color: 'black'
+  
+  }
+};
+
+
+
 export default function AboutMe() {
   return (
-    <div>
-      <h1>About me</h1>
+    <div style={person.theme} > 
+   
+      <h1>{person.name} About Me</h1>
+     
 
       <img
-      src="/images/IMG_1267.jpeg"alt=''
-     
+      src="/images/IMG_1267.jpeg"alt='wilfredo recinos'
+      
+      width={200}
+      height={200}
+   
      ></img>
       <p>
       I am  a full stack web developer, currently  student 
@@ -17,6 +34,7 @@ export default function AboutMe() {
        React and MERN. I am  a problem solver passionate About
        computer's programs.
       </p>
+   
     </div>
   );
 }
