@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/NavTabs.css';
+
 
 
 const styles = {
@@ -13,7 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
      
 
-        // <nav style={styles.NavTabsStyle} className="NavTabs">
+      
      <ul className="nav nav-tabs "  style={styles.NavTabsStyle}> 
      
     
@@ -62,7 +62,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     
    
      </ul> 
-    // </nav>
+   
   );
 }
 

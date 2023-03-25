@@ -22,6 +22,9 @@ export default function Resume() {
       <li>Node</li>
       <li>Exxpress</li>
       <li>MySQL, Sequelize</li>
+      <li>MongoDB, Mongoose</li>
+      <li>Rest</li>
+      <li>GraphQL</li>
 
       </ul>
 
