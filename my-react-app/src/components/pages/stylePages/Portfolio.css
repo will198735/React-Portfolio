@@ -1,0 +1,12 @@
+.portfolio img {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+
+}
+.portfolio h1 {
+    color: black;
+    padding: 5px;
+    margin: 5px;
+
+}

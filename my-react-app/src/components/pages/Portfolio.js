@@ -1,4 +1,5 @@
 import React from 'react';
+import '../pages/stylePages/Portfolio.css';
 
 
 
@@ -6,7 +7,7 @@ import React from 'react';
 export default function Portfolio() {
   return (
    
-    <div>
+    <div className='portfolio'>
       <h1>Porfolio</h1>
    
       <img src="/images/download2.png" alt=" " width={400}height={400}></img>
