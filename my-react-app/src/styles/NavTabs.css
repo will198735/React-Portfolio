@@ -4,7 +4,7 @@
 }
 
 .nav h1 {
-  color: rgb(250, 247, 247);
+  color: rgb(18, 11, 207);
   font-size: 1.5rem;
   text-align: right;
   text-decoration: none;
@@ -13,6 +13,6 @@
 .nav-item a {
   padding: 10px;
   margin: 10px;
- color: rgb(61, 11, 21);
+ color: rgb(0, 0, 0);
  align-items: end;
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import '../pages/stylePages/Resume.css';
 
 export default function Resume() {
   return (
-    <div>
+    <div className='resume'>
       <section> 
       <h1>Resume</h1>
       <h6> Download my resume</h6>
