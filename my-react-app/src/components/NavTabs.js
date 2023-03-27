@@ -1,11 +1,12 @@
 import React from 'react'
-
+import '../styles/NavTabs.css';
 
 
 const styles = {
   NavTabsStyle: {
-    background: 'green',
-    justifyContent: 'flex-end',
+    background: '#64a991',
+    // padding: '15px',
+    // justifyContent: 'flex-end',
   },
 };
 
@@ -14,10 +15,10 @@ function NavTabs({ currentPage, handlePageChange }) {
      
 
       
-     <ul className="nav nav-tabs "  style={styles.NavTabsStyle}> 
+     <nav className="nav nav-tabs "  style={styles.NavTabsStyle}> 
      
     
-      <h3> Wilfredo Recinos Recinos </h3>
+      <h1> Wilfredo Recinos Recinos </h1>
 
       <li className="nav-item">
         <a
@@ -61,7 +62,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
     
    
-     </ul> 
+     </nav> 
    
   );
 }
