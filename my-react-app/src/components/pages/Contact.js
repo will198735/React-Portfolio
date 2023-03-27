@@ -1,9 +1,11 @@
 
 import React from 'react';
+import '../pages/stylePages/Contact.css';
+
 
 export default function Contact() {
   return (
-    <div>
+    <div className='contact'>
       <h1>Contact</h1>
       <div class="col-auto">
     <label class="visually-hidden" for="autoSizingInput">Name</label>
@@ -18,7 +20,7 @@ export default function Contact() {
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
 <div class="col-auto">
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-warning">Submit</button>
   </div>
     
 

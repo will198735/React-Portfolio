@@ -1,0 +1,13 @@
+.contact {
+
+    padding: 5px;
+    margin: 5px;
+    align-items: start;
+}
+.contact h1 {
+    color: black;
+
+}
+.contact button {
+    color: rgb(8, 0, 1);
+}
