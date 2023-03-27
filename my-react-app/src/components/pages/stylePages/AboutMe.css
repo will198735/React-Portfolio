@@ -1,5 +1,22 @@
 .about h1 {
-    color: red;
+    color: rgb(27, 1, 1);
+    text-align: center;
 
+}
+
+.about img {
+    border: 1px solid black;
+  height: 200px;
+  
+ 
+
+
+}
+
+.about p {
+    text-align: center;
+    color: azure;
+  padding: 14px 20px;
+  text-decoration: none;
 }
 
