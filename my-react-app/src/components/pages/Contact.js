@@ -8,8 +8,8 @@ export default function Contact() {
     <div className='contact'>
       <h1>Contact</h1>
       <div class="col-auto">
-    <label class="visually-hidden" for="autoSizingInput">Name</label>
-    <input type="text" class="form-control" id="autoSizingInput" placeholder="Name"></input>
+    <label class="" for="autoSizingInput">Name:</label>
+    <input type="text" class="form-control" id="autoSizingInput" placeholder=""></input>
   </div>
       <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address:</label>

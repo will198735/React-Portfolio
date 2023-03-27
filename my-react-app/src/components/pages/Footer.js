@@ -1,10 +1,17 @@
 import React from 'react';
+import '../pages/stylePages/Footer.css';
+
+import { FaGithub, FaLinkedinIn, FaJs} from "react-icons/fa";
+
+
+
 
 const Footer = () => {
   return (
-    <footer className="w-100 mt-auto text-dark p-4 ">
+    <footer  className=" footer w-100 mt-auto text-dark p-4 ">
       <div className="container text-center mb-5  ">
-        <h4>&copy; {new Date().getFullYear()} - GitHub</h4>
+        <h4> <FaGithub/> <FaLinkedinIn/> <FaJs/></h4>
+       
       </div>
     </footer>
   );
