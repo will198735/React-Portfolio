@@ -1,30 +1,51 @@
 
 import React from 'react';
+import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import '../pages/stylePages/Contact.css';
 
 
 export default function Contact() {
-  return (
-    <div className='contact'>
-      <h1>Contact</h1>
-      <div class="col-auto">
-    <label class="" for="autoSizingInput">Name:</label>
-    <input type="text" class="form-control" id="autoSizingInput" placeholder=""></input>
-  </div>
-      <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address:</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=""></input>
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">message:</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-<div class="col-auto">
-    <button type="submit" class="btn btn-warning">Submit</button>
-  </div>
-    
 
-     
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    //     console.log(e);
+
+
+  };
+  return (
+    <div className='contac'>
+      <Form onSubmit={handleOnSubmit}>
+        <Form.Field
+          id='form-input-control-email'
+          control={Input}
+          label='Email'
+          name='user_email'
+          placeholder='Email…'
+          required
+          icon='mail'
+          iconPosition='left'
+        />
+        <Form.Field
+          id='form-input-control-last-name'
+          control={Input}
+          label='Name'
+          name='user_name'
+          placeholder='Name…'
+          required
+          icon='user circle'
+          iconPosition='left'
+        />
+        <Form.Field
+          id='form-textarea-control-opinion'
+          control={TextArea}
+          label='Message'
+          name='user_message'
+          placeholder='Message…'
+          required
+        />
+        <Button type='submit' color='green'>Submit</Button>
+      </Form>
     </div>
   );
 }
+

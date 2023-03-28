@@ -1,13 +1,13 @@
-.contact {
+#contac.css
 
-    padding: 5px;
-    margin: 5px;
-    align-items: start;
+.contac {
+  text-align: center;
+  max-width: 300px;
+  margin: 20px auto;
 }
-.contact h1 {
-    color: black;
 
-}
-.contact button {
-    color: rgb(8, 0, 1);
+Form {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
 }
