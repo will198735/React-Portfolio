@@ -1,5 +1,5 @@
 import React from 'react';
-import '../pages/stylePages/Resume.css';
+import './stylePages/Resume.css';
 
 export default function Resume() {
   return (

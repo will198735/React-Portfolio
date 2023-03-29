@@ -1,5 +1,5 @@
 import React from 'react';
-import '../pages/stylePages/Portfolio.css';
+import './stylePages/Portfolio.css';
 
 
 

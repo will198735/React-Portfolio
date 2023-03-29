@@ -1,5 +1,5 @@
 import React from 'react';
-import '../pages/stylePages/AboutMe.css';
+import './stylePages/AboutMe.css';
 
 
 const person = {

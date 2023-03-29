@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
-import '../pages/stylePages/Contact.css';
+import './stylePages/Contact.css';
 
 
 export default function Contact() {
