@@ -1,9 +1,12 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.e5a6fe12.css",
-    "main.js": "/React-Portfolio/static/js/main.5e613887.js",
+    "main.js": "/React-Portfolio/static/js/main.744d9f63.js",
+    "static/media/Screen Shot 2023-02-21 at 4.53.04 PM.png": "/React-Portfolio/static/media/Screen Shot 2023-02-21 at 4.53.04 PM.32549320c470590d3090.png",
+    "static/media/Screenshot (128).png": "/React-Portfolio/static/media/Screenshot (128).59604732ffbdfdf81e14.png",
     "static/media/brand-icons.svg": "/React-Portfolio/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/React-Portfolio/static/media/icons.62d9dae4e0040e81c980.svg",
+    "static/media/IMG_1267.jpeg": "/React-Portfolio/static/media/IMG_1267.1a95bc59d10ed83dd7ad.jpeg",
     "static/media/outline-icons.svg": "/React-Portfolio/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/React-Portfolio/static/media/icons.a01e3f2d6c83dc3aee17.eot",
     "static/media/icons.ttf": "/React-Portfolio/static/media/icons.c656b8caa454ed19b9a2.ttf",
@@ -20,10 +23,10 @@
     "static/media/outline-icons.woff2": "/React-Portfolio/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/React-Portfolio/index.html",
     "main.e5a6fe12.css.map": "/React-Portfolio/static/css/main.e5a6fe12.css.map",
-    "main.5e613887.js.map": "/React-Portfolio/static/js/main.5e613887.js.map"
+    "main.744d9f63.js.map": "/React-Portfolio/static/js/main.744d9f63.js.map"
   },
   "entrypoints": [
     "static/css/main.e5a6fe12.css",
-    "static/js/main.5e613887.js"
+    "static/js/main.744d9f63.js"
   ]
 }
