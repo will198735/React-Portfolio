@@ -1,6 +1,6 @@
 import React from 'react';
 import './stylePages/AboutMe.css';
-
+import imageAbout from '../../images/IMG_1267.jpeg';
 
 const person = {
   mane: 'About Me',
@@ -16,12 +16,15 @@ const person = {
 export default function AboutMe() {
   return (
     <div style={person.theme} className='about' > 
+    
    
       <h1>{person.name} About Me</h1>
      
 
       
-     <img src="/images/IMG_1267.jpeg" class="rounded-circle"alt='wilfredo recinos'width={200}height={200}></img>
+     <img src={imageAbout} class="rounded-circle"alt='wilfredo recinos'width={200}height={200}></img>
+     {/* <img src=" /images/IMG_1267.jpeg" class="rounded-circle"alt='wilfredo recinos'width={200}height={200}></img> */}
+
       <p>
       I am  a full stack web developer, currently  student 
       from UCB of California Bootcamp, with newly developd
