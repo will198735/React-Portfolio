@@ -4,7 +4,8 @@ import '../styles/NavTabs.css';
 
 const styles = {
   NavTabsStyle: {
-    background: '#64a991',
+    background: '#729abd',
+    // background: '#64a991',
     // padding: '15px',
     // justifyContent: 'flex-end',
   },

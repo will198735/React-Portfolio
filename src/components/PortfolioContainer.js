@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <section className='bg-primary '>
+    <section className='bg-secondary'>
       
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       
