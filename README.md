@@ -14,6 +14,9 @@ This isd a app created with React.js. It contains an About page, Portfolio page,
 
 
 ## Installation
+ https://will198735.github.io/React-Portfolio/
+
+https://github.com/will198735/React-Portfolio
 
 
 ## Usage
